@@ -1,0 +1,56 @@
+body {
+  font: 12px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+
+
+body {
+    background-color: DodgerBlue;
+}
+
+.lean-R {
+    background-color: LightCoral;
+}
+.likely-R {
+    background-color: FireBrick;
+}
+.safe-R {
+    background-color: DarkRed;
+}
+.lean-D {
+    background-color: DeepSkyBlue;
+}
+.likely-D {
+    background-color: DodgerBlue;
+}
+.safe-D {
+    background-color: DarkBlue;
+}
+.tossup {
+    background-color: DarkKhaki;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+p {
+    font-family: verdana;
+    font-size: 14px;
+}

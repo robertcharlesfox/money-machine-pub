@@ -1,0 +1,32 @@
+<?php
+
+Route::get('cron/opinionsavvy', 'CronController@scrapeOpinionSavvy');
+Route::get('cron/monmouth/pdf', 'CronController@scrapeMonmouthPDF');
+Route::get('fundraising-dispatch', 'FECController@dispatchScrapeFundraising');
+Route::get('cron/rcp/scrape/{scrape_frequency}', 'CronController@getRcpPolls');
+Route::get('cron/huffpo', 'CronController@getHuffPo');
+Route::get('cron/ibd', 'CronController@getIbd');
+Route::get('cron/cbs', 'CronController@getCbs');
+Route::get('cron/quin', 'CronController@getQuin');
+Route::get('cron/fox/polls', 'CronController@getFoxPolls');
+Route::get('cron/pew', 'CronController@getPew');
+Route::get('cron/pewforum', 'CronController@getPewForum');
+Route::get('cron/ap', 'CronController@getAp');
+Route::get('cron/mtp', 'CronController@getMtp');
+Route::get('cron/marist', 'CronController@getMarist');
+Route::get('cron/bloomberg', 'CronController@getBloomberg');
+Route::get('cron/suffolk', 'CronController@getSuffolk');
+Route::get('cron/monmouth', 'CronController@getMonmouth');
+Route::get('cron/nationaljournal', 'CronController@getNationalJournal');
+Route::get('cron/gallup/congress', 'CronController@getGallupCongress');
+Route::get('cron/gallup/obama', 'CronController@getGallupObama');
+Route::get('cron/gallup/homepage/{search_term}', 'CronController@getGallupHomepage');
+Route::get('cron/rasmussen/righttrack', 'CronController@getRasmussenRightTrack');
+Route::get('cron/rasmussen/obama', 'CronController@getRasmussenObama');
+Route::get('cron/rasmussen/candidates', 'CronController@getRasmussenCandidates');
+Route::get('cron/economist', 'CronController@getEconomistWeekly');
+Route::get('cron/reuters/update/obama', 'CronController@getReutersWeeklyUpdateObama');
+Route::get('cron/reuters/update/righttrack', 'CronController@getReutersWeeklyUpdateRighttrack');
+Route::get('cron/reuters/report', 'CronController@getReutersWeeklyReport');
+Route::get('cron/reuters/clear', 'CronController@clearReuters');
+Route::get('cron/weekly/clear', 'CronController@clearWeekly');
