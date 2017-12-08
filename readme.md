@@ -1,6 +1,7 @@
 See http://moneymachine.foxconsulting.tech/ for a description of this project, including screenshots.
 
 To poke around the code, look in these subdirectories:
+
 Models:
 app/models
 
